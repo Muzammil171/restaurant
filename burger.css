@@ -887,8 +887,8 @@ nav ul a:hover {
 
 footer {
     /* background-color: #0d0f10; */
-    background-color: rgba(240, 248, 255, 0.445);
-    /* background-color: #e74c3c; */
+    /* background-color: rgba(240, 248, 255, 0.445); */
+    background-color: #e74c3c;
     padding: 40px 20px 20px 20px;
     color: white;
     margin-top: 70px;
