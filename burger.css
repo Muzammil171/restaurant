@@ -886,9 +886,9 @@ nav ul a:hover {
 /* <!-- -------------------------------footer--------------------- --> */
 
 footer {
-    /* background-color: #0d0f10; */
+    background-color: #0d0f10;
     /* background-color: rgba(240, 248, 255, 0.445); */
-    background-color: #461d19;
+    /* background-color: #461d19; */
     padding: 40px 20px 20px 20px;
     color: white;
     margin-top: 70px;
