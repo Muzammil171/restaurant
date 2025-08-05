@@ -1,0 +1,721 @@
+/* -------------------------------1200-------------------------------- */
+
+@media screen and (max-width: 1200px) {
+    .containerr {
+        width: 90% !important;
+    }
+
+    p {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    /* ------------------------------------ marquee- marquee-------------------------------- */
+
+    marquee {
+        font-weight: lighter;
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+
+    .healthy-fff h2 {
+        font-size: 18px;
+    }
+
+    .log-aa,
+    .icon-baner a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .log-aa i,
+    .icon-baner i {
+        font-size: 12px;
+    }
+
+    /* ------------------------------------ nav------------------------------- */
+
+    nav ul,
+    .all-ul {
+        gap: 20px;
+    }
+
+    nav ul a {
+        font-size: 14px;
+    }
+
+    .dropdown-menu li a {
+        font-size: 14px;
+    }
+
+    .nav-btn-div button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .search-icon i {
+        font-size: 16px;
+    }
+
+    .search-container.active .search-icon i {
+        font-size: 15px;
+    }
+
+    .search-input {
+        padding: 5px 30px 5px 5px;
+        /* background-color: aqua; */
+        font-size: 12px;
+    }
+
+    /* ------------------------------------ header------------------------------ */
+
+    .slider-container {
+        height: 50vh;
+    }
+
+
+    .Fast-Food h1 {
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+
+    .Fast-Food p {
+        padding-bottom: 25px;
+        font-size: 14px;
+        max-width: 600px;
+    }
+
+
+    .arrow {
+        font-size: 20px;
+    }
+
+    .dots {
+        gap: 5px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .slider-btn {
+        font-size: 40px;
+        width: 25px;
+    }
+
+    /* ------------------------------------food item------------------------------ */
+
+    .slider-item {
+        width: 125px;
+    }
+
+    .slider-item img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .slider-item span {
+        font-size: 10px;
+    }
+
+    /* ------------------------------------ 15% off---------------------------- */
+
+    .persent-off {
+        margin-top: 40px;
+        padding-block: 15px;
+        padding-left: 20px;
+    }
+
+    .persent-ddv {
+        margin-top: -30px;
+    }
+
+    .persent-ddv .number {
+        width: 65px;
+        height: 65px;
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+    .persent-off h6 {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+
+    /* ------------------------------------card head------------------------------ */
+
+    .headinng {
+        /* background-color: #2d3134; */
+        padding-block: 10px;
+        margin-block: 20px 30px;
+    }
+
+    .headinng h3 {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .headinng p {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    /* ------------------------------------card--------------------------------- */
+
+    .popular-cards-container {
+        gap: 20px;
+    }
+
+    .product-card {
+        width: 240px;
+    }
+
+    .product-card img {
+        height: 225px;
+    }
+
+    .card-content h4 {
+        font-size: 14px;
+        margin-block: 0 20px;
+    }
+
+    .card-content p {
+        font-size: 11px;
+        height: 38px;
+    }
+
+    .price {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+    .heart-icon {
+        top: 15px;
+        right: 15px;
+        font-size: 17px;
+    }
+
+    .addtocard {
+        right: 20px;
+        bottom: 15px;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+
+
+
+
+}
+
+/* -------------------------------992--------------------------------- */
+
+@media screen and (max-width: 992px) {
+
+    .containerr {
+        width: 90% !important;
+    }
+
+    p {
+        font-size: 12px;
+        letter-spacing: normal;
+    }
+
+    marquee {
+        font-weight: lighter;
+        font-size: 12px;
+        letter-spacing: normal;
+    }
+
+
+
+    .search-icon i {
+        font-size: 14px;
+        /* color: black; */
+    }
+
+
+
+    .healthy-fff h2 {
+        font-size: 18px;
+        padding-inline: 10px;
+    }
+
+    .regester p {
+        font-size: 12px;
+    }
+
+
+    .log-aa,
+    .icon-baner a {
+        width: 22px;
+        height: 22px;
+    }
+
+    .log-aa i,
+    .icon-baner i {
+        font-size: 10px;
+    }
+
+    nav ul,
+    .all-ul {
+        gap: 15px;
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .slider-container {
+        height: 40vh;
+    }
+
+
+    .popular-cards-container {
+        gap: 5px;
+    }
+
+    .popular-cards {
+        width: clamp(100px, 20vw, 200px);
+        aspect-ratio: 1 / 1;
+
+    }
+
+    /* -------------------------------------card----------------------------------- */
+    .product-card {
+        width: 200px;
+    }
+
+    .product-card img {
+        height: 200px;
+    }
+
+    .card-content h4 {
+        font-size: 12px;
+        margin-block: 0 20px;
+    }
+
+    .card-content p {
+        font-size: 10px;
+        height: 38px;
+    }
+
+    .price {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+    .heart-icon {
+        top: 15px;
+        right: 15px;
+        font-size: 15px;
+    }
+
+    .addtocard {
+        right: 20px;
+        bottom: 15px;
+        width: 28px;
+        height: 28px;
+        font-size: 15px;
+    }
+
+
+
+
+
+}
+
+/* -------------------------------768--------------------------------- */
+
+
+@media screen and (max-width:768px) {
+
+    .containerr {
+        width: 93% !important;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    marquee {
+        font-size: 10px;
+    }
+
+    .dissplay-serch {
+        display: none;
+    }
+
+    .search-container {
+        display: block;
+    }
+
+    .login-i {
+        flex-direction: row-reverse;
+        gap: 20px;
+    }
+
+
+    /* -----------------------------------hamburger------------------------- */
+    .ssiiddee {
+        display: block;
+    }
+
+    /* Hamburger Icon */
+    #hamburger {
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+    }
+
+    /* Close Icon */
+    #closeBtn {
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 50000000;
+        display: none;
+    }
+
+    /* Sidebar */
+    #sidebar {
+        position: fixed;
+        top: 0px;
+        right: 0;
+        width: 250px;
+        height: 100vh;
+        background-color: #0d0f10;
+        padding: 0px;
+        z-index: 50000;
+        transform: translateX(100%);
+        transition: transform 0.7s ease;
+    }
+
+    #sidebar.active {
+        transform: translateX(0);
+    }
+
+    .side-ul {
+        position: relative;
+        top: 40px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sidebardropdown-menu {
+        display: none;
+    }
+
+    #sidebar ul a {
+        color: white;
+        font-weight: lighter;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .menu-item:hover .sidebardropdown-menu {
+        display: flex !important;
+        transition: transform 0.3s ease;
+    }
+
+    /* .nav-btn-div {
+        display: none;
+    } */
+
+    nav ul li {
+        display: none;
+    }
+
+    .slider-container {
+        height: 40vh;
+    }
+
+    .Fast-Food {
+        padding: 80px 0px 0px 40px;
+    }
+
+    .Fast-Food h1 {
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .Fast-Food p {
+        padding-bottom: 30px;
+        font-size: 12px;
+        max-width: 400px;
+    }
+
+    .arrow {
+        font-size: 15px;
+    }
+
+    .dots {
+        gap: 3px;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;
+    }
+
+    .slider-btn {
+        font-size: 40px;
+        width: 20px;
+    }
+
+    /* ------------------------------------food item------------------------------ */
+
+    .slider-item {
+        width: 90px;
+        /* background-color: aquamarine; */
+    }
+
+    .slider-item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slider-item span {
+        font-size: 8px;
+    }
+
+    /* ------------------------------------ 15% off---------------------------- */
+
+    .persent-off {
+        margin-top: 40px;
+        padding-block: 12px;
+        padding-left: 20px;
+    }
+
+    .persent-ddv {
+        margin-top: -25px;
+    }
+
+    .persent-ddv .number {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        padding-top: 5px;
+    }
+
+    .persent-off h6 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+
+    .headinng {
+        /* background-color: #2d3134; */
+        padding-block: 8px;
+        margin-block: 20px 30px;
+    }
+
+    .headinng h3 {
+        font-size: 17px;
+        letter-spacing: 0.5px;
+    }
+
+    .headinng p {
+        font-size: 8px;
+        padding-top: 5px;
+    }
+
+    .product-card {
+        width: 180px;
+    }
+
+    .product-card img {
+        height: 180px;
+    }
+
+    .card-content h4 {
+        font-size: 10px;
+        margin-block: 0 15px;
+    }
+
+    .card-content p {
+        font-size: 8px;
+        height: 25px;
+    }
+
+    .price {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+
+    .heart-icon {
+        top: 15px;
+        right: 15px;
+        font-size: 14px;
+    }
+
+    .addtocard {
+        right: 20px;
+        bottom: 15px;
+        width: 22px;
+        height: 22px;
+        font-size: 14px;
+    }
+
+
+
+    .footer-container {
+        gap: 10px;
+    }
+
+    .footer-column a {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .store-buttons img {
+        height: 30px;
+        margin-block: 5px;
+
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------600--------------------------------- */
+@media screen and (max-width:600px) {
+
+    .containerr {
+        width: 98% !important;
+    }
+
+
+
+    .healthy-fff {
+        display: none;
+    }
+
+    .icon-baner {
+        display: none;
+    }
+
+    .d-n-oder {
+        display: none;
+    }
+
+    .slider-container {
+        height: 50vh;
+    }
+
+    /* .food-feane{ 
+        display: none;
+    } */
+
+    .popular-cards-container {
+        gap: 20px 5px;
+    }
+
+
+
+    .popular-cards {
+        width: clamp(50px, 38vw, 160px);
+        aspect-ratio: 1 / 1;
+
+        /* width: 150px; */
+        /* height: 150px; */
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .card-deals {
+        /* display: flex; */
+        justify-content: space-evenly;
+        /* align-items: center; */
+        /* flex-wrap: wrap; */
+        gap: 20px 10px;
+        padding-block: 10px;
+    }
+
+
+    .product-card {
+        width: 170px;
+    }
+
+    .product-card img {
+        height: 170px;
+    }
+
+
+
+    .footer-container {
+        gap: 10px;
+    }
+
+    .footer-column a {
+        margin-bottom: 3px;
+        font-size: 10px;
+    }
+
+    .store-buttons img {
+        height: 30px;
+        margin-block: 3px;
+
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+
+    .Powered-b-n {
+        display: none;
+    }
+
+
+
+
+
+}
