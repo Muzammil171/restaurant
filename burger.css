@@ -79,6 +79,164 @@ h1 {
     display: none;
 }
 
+/* -------------------------ark mode ---------------- */
+
+.sidebar-darkmode {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.darkmode-show {
+    display: none;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 53px;
+    height: 23px;
+    background: #12121291;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    transition: background 0.3s;
+    border: solid 2px orange;
+}
+
+.toggle-switch .fa-moon,
+.toggle-switch .icon {
+    font-size: 13px;
+    z-index: 2;
+    color: black;
+}
+
+.sun-color {
+    color: orange;
+}
+
+.toggle-circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: orange;
+    border-radius: 50%;
+    top: 1.5px;
+    left: 4px;
+    transition: left 0.3s;
+    z-index: 1;
+}
+
+.dark-mode-toggle {
+    background: #FEFEFA;
+    border: solid 2px orange;
+}
+
+.dark-mode-toggle .toggle-circle {
+    left: 30px;
+}
+
+.dark-mode-toggle .toggle-circle {
+    background-color: orange;
+}
+
+.dark-mode-toggle .fa-moon {
+    color: #2d3134;
+}
+
+.dark-mode-toggle .sun-color {
+    color: #2d3134;
+}
+
+body.dark-mode {
+    padding: 0;
+}
+
+.dark-mode .back-img-1 {
+    display: none;
+}
+
+.dark-mode .back-img-2 {
+    display: block;
+}
+
+.dark-mode .exclusive-baner {
+    color: #212121;
+}
+
+.dark-mode marquee {
+    color: #212121;
+}
+
+.dark-mode .food-feane {
+    background: linear-gradient(to right, #D3D3D3 50%, #FEFEFA 90%);
+}
+
+.dark-mode .healthy-fff h2 {
+    color: #212121;
+}
+
+.dark-mode .loginp {
+    border-right: solid 1px #212121;
+}
+
+.dark-mode #closeBtn,
+.dark-mode #sidebar ul a,
+.dark-mode .menu-item i,
+.dark-mode footer a,
+.dark-mode .copy-right,
+.dark-mode .copy-right strong,
+.dark-mode .slider-wrapper button,
+.dark-mode .slider-wrapper span,
+.dark-mode .headinng h3,
+.dark-mode .headinng p,
+.dark-mode nav i,
+.dark-mode nav ul a,
+.dark-mode #hamburger i,
+.dark-mode .logo h1,
+.dark-mode .regester p,
+.dark-mode .persent-off h6,
+.dark-mode .regester i,
+.dark-mode .icon-baner i {
+    color: #212121;
+}
+
+.dark-mode .body-background-image-overlay {
+    background-color: #706d6d49;
+}
+
+.dark-mode .headinng {
+    border-bottom: solid 1px #212121;
+}
+
+.dark-mode #sidebar,
+.dark-mode footer,
+.dark-mode .dropdown-menu-div-a,
+.dark-mode .slider-wrapper {
+    background-color: #FEFEFA;
+}
+
+.dark-mode #navbar {
+    background-color: #fefefa70;
+}
+
+.dark-mode .Fast-Food {
+    background-color: #fefefa21;
+}
+
+.dark-mode .slider-wrapper,
+.dark-mode .persent-off,
+.dark-mode .slider-container,
+.dark-mode .nav-div {
+    background: linear-gradient(to right, #D3D3D3 50%, #FEFEFA 90%);
+}
+
+.dark-mode .slider-item img {
+    filter: brightness(0);
+}
 
 /* --------------------------------------------------- */
 
@@ -730,8 +888,6 @@ nav ul a:hover {
     border-radius: 12px;
     background-color: #0d0f10;
     overflow: hidden;
-    box-shadow: rgba(13, 15, 16, 0.4) 0px 13px 27px -5px,
-        rgba(13, 15, 16, 0.5) 0px 8px 16px -8px;
 }
 
 .popular-cards:hover.popular-cards img {

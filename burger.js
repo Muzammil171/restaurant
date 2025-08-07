@@ -1,3 +1,23 @@
+// ------------------------------------dark-mode-----------------------------------
+
+function isVisible(el) {
+    return el && el.offsetParent !== null;
+}
+
+const toggles = document.querySelectorAll('.darkToggle');
+
+toggles.forEach(toggle => {
+    if (isVisible(toggle)) {
+        toggle.addEventListener('click', () => {
+            toggles.forEach(btn => btn.classList.toggle('dark-mode-toggle'));
+            document.body.classList.toggle('dark-mode');
+        });
+    }
+});
+
+// ------------------------------------dark-mode-----------------------------------
+
+
 window.addEventListener("scroll", function () {
     var searchi = document.getElementById("searchContainer");
     const navbar = document.getElementById("navbar");

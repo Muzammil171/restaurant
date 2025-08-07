@@ -208,8 +208,6 @@
 
 
 
-
-
 }
 
 /* -------------------------------992--------------------------------- */
@@ -328,10 +326,6 @@
         font-size: 15px;
     }
 
-
-
-
-
 }
 
 /* -------------------------------768--------------------------------- */
@@ -366,6 +360,15 @@
 
 
     /* -----------------------------------hamburger------------------------- */
+
+    .darkmode-none {
+        display: none;
+    }
+
+    .darkmode-show {
+        display: flex;
+    }
+
     .ssiiddee {
         display: block;
     }
@@ -409,7 +412,7 @@
 
     .side-ul {
         position: relative;
-        top: 40px;
+        top: 20px;
         right: 0;
         display: flex;
         flex-direction: column;
